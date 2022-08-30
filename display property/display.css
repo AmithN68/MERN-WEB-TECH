@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* inline block */
+section{
+    border: 2px solid red;
+    height: 200px;
+    background-color: aqua;
+}
+
+section h1{
+    display: inline-block;
+    background-color: crimson;
+}
+
+/* block level */
+div span{
+    display: block;
+    background-color: green;
+    color: yellow;
+}
+
+/* none */
+.dd1 h3{
+    display: none;
+}
+
+.dd1 h1{
+    background-color: aquamarine;
+}
+
+/* hidden */
+.dd2 p{
+    background-color: yellowgreen;
+}
+
+.dd2 h4{
+    visibility: hidden;
+}
+
+
+/* assignment */
+.dd3 h3:hover{
+    visibility: hidden;
+}
+
+.dd3 button:hover +p{
+    visibility: hidden;
+}
+

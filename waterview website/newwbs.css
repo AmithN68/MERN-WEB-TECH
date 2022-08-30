@@ -1,0 +1,159 @@
+
+
+@import url(newhover.css);
+
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+#dv1 img{
+    margin-left: 100px;
+    width: 100px;
+    height: 13vh;
+}
+
+#hm{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#dv2{
+    margin-right: 100px;
+}
+
+#ac{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#ss{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#gs{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#gy{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#ct{
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+table a:hover{
+    border:solid 3px;
+    color:#43a906;
+    margin-bottom: 10px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-bottom: 10px;
+}
+
+table{
+    margin-top: 30px;
+}
+
+.zoom{
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.zoom img{
+    transition: 0.5s all ease-in-out;
+}
+
+.zoom:hover img{
+    transform: scale(1.5);
+}
+
+.zoom:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.zoom{
+    display: flex;
+    margin-left: 70px;
+}
+
+.dv4{
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.dv5{
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: justify;
+}
+
+#hd{
+    text-align: left;
+    margin-left: 70px;
+}
+
+.dv11{
+    position: relative;
+}
+
+.dv12{
+    position: absolute;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+    bottom: 0px;
+    color:white;
+    text-align: justify;   
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold; 
+    font-size: 15px;
+
+}
+
+.dv12 h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.dv13{
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.dv13 h2{
+    text-align: left;
+    margin-left: 22px;
+}
+
+.dv14{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.dv14 h2{
+    text-align: left;
+    margin-left: 22px;
+}
+

@@ -1,0 +1,18 @@
+
+@import url(htm.css);
+
+/* 3.External Css */
+
+p{
+    background-color: aqua;
+}
+
+#p2{
+    color: red;
+}
+.p1{
+    color: black;
+}
+
+
+

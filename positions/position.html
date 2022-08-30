@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        /* static position */
+        h2{
+            background-color: aquamarine;
+            position: fixed;
+            top:0px;
+        }
+
+        /* absolute and relative position */
+        .dd11{
+            border:2px solid;
+            width: 550px;
+            height: 550px;
+            position: relative;
+             
+        }
+
+        .dd11 >p:first-child{
+            height: 100px;
+            width: 100px;
+            background-color: aquamarine;
+            border: 2px solid black;
+            position: absolute;
+            top: 200px;
+            left: 200px;
+        }
+
+        .dd11>p:last-child{
+            height: 100px;
+            width: 100px;
+            background-color: aquamarine;
+            border: 2px sold black;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quae, esse eaque iusto voluptatem illo ut repellat nobis repellendus autem! Dignissimos, autem? In, commodi facilis nemo, voluptates ex sunt laudantium maxime iste nihil, sapiente dolorum! Earum quia nemo aperiam, illum voluptate in voluptatibus tempore consequatur perspiciatis, eveniet, pariatur dolorem voluptatum!</h3>
+    <div>
+        <h2>hello world</h2>
+        <p>.</p>
+    </div>
+
+    <div class="dd11">
+        <p>para1</p>
+        <p>para2</p>
+    </div>
+
+</body>
+</html>

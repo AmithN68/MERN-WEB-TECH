@@ -1,0 +1,83 @@
+
+/* disable mouseover */
+.p1 p:hover{
+    background-color: burlywood;
+}
+
+.p1 p{
+    background-color: aqua;
+}
+
+.p1 p{
+    pointer-events: none;
+}
+
+
+/* box shadow */
+img{
+    box-shadow:10px -45px 10px 40px rgb(192, 15, 15) ;
+    margin-left: 20px;
+}
+
+/* input border change when selected */
+input:focus{
+    outline: none;
+    border: 2px solid blue;
+}
+
+/* select last Nth child */
+.p2 p:last-child {
+    background-color: rgb(102, 102, 178);
+}
+
+/* fix button on the bottom right */
+section{
+    width: 98%;
+    height: 80vh;
+    border: thick double black;
+}
+
+section button{
+    position: sticky;
+    top: 870px;
+    left: 90%;
+    padding: 10px;
+    background-color: rgb(52, 151, 205);
+}
+
+/* backgroud image blur */
+#sec1{
+   background-image: url(./supcarcoll.jpg);   
+   width: 100%;
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   filter: blur(5px);
+}
+
+#sec2{
+    position: absolute;
+    top: 1900px;
+    left: 100px;
+    right: 100px;
+    color: white;
+    font-size: 25px;
+}
+
+/* rounded corner */
+#sec3 button{
+    background-color: rgb(52, 151, 205);
+    padding: 10px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+/* program */
+#sect2 div +p{
+    background-color: chartreuse;
+}
+
+#sect2 h2 +p{
+    font-size: 25px;
+    color: blueviolet;
+}

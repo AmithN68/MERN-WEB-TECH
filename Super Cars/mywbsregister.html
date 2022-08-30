@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+            color: #fff;
+        }
+
+        .frm2{
+            width: 350px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            position: absolute;
+            color: #fff;
+        }
+
+        .frm2 h1{
+            font-size: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+
+        .frm2 label{
+            font-size: 20px;
+            margin: 15px 0;
+        }
+
+        .frm2 input{
+            font-size: 16px;
+            width: 100%;
+            padding: 15px 10px;
+            border: 0;
+            outline: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            color: black;
+        }
+
+        .frm2 button{
+            border-radius: 5px;
+            padding: 10px 15px;
+            width: 50%;
+            margin: 20px 0;
+            font-size: 18px;
+            font-weight: bold;
+            border: 0;
+            color: black;
+        }
+
+        .frm2 button:hover{
+            background-color: black;
+            color: #fff;
+        }
+
+        .vdeo{
+            position: absolute;
+            width: 100%;
+            min-height: 100%;
+            right: 0;
+            left: 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <video src="./video/Harshad_mehta___Lamborghini___Scam1992_theme_song(720p).mp4" autoplay loop muted class="vdeo"></video>
+    <div class="frm2">
+        <h1>register form</h1>
+    <form action="">
+        <label for="fn">Full Name</label><br>
+        <input type="text" id="fn" placeholder="enter the name">
+        <br><br>
+        <label for="un11">Username</label><br>
+        <input type="text" id="un11" placeholder="enter the username">
+        <br><br>
+        <label for="el">Email</label><br>
+        <input type="mail" id="el" placeholder="enter the mailid">
+        <br><br>
+        <label for="pw">Password</label><br>
+        <input type="password" id="pw" placeholder="enter the password">
+        <br><br>
+        <button type="submit">Register</button>
+    </form>
+    </div>
+</body>
+</html>

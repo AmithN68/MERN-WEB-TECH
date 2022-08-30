@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo element</title>
+    <style>
+        p::before{
+            content:'hello ';
+        }
+        p::after{
+            content: " WORLD";
+        }
+        P::first-letter{
+            color: rgb(19, 215, 55);
+            font-size: 30px;
+            font-weight: bold;
+        }
+        p::first-line{
+            color: crimson;
+            font-size: 20px;
+        }
+        p::selection{
+            color: fuchsia;
+            background-color: aqua;
+        }
+        li::marker{
+            color: aquamarine;
+            font-size: 40px;
+        }
+        p::before{
+            content: url('https://images.unsplash.com/photo-1550615162-bea8b6fb3901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHN1cGVyY2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60');
+            
+        }
+        p::before{
+            opacity: 50%;
+        }
+
+        button
+        {
+            cursor: pointer;
+        }
+        p{
+            cursor: wait;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae iste explicabo illo necessitatibus ex impedit, natus eum. Error vitae hic inventore adipisci praesentium, placeat exercitationem sit! Similique molestiae debitis maxime ipsum fuga sapiente, enim nemo nam vel accusantium. Expedita, in?</p>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+    <ol>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+    </ol>
+    <button>BUTTON</button>
+</body>
+</html>

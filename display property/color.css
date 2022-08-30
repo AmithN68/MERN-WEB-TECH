@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    width: 50%;
+    height: 40vh;
+    border: solid;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#div1{
+    background-image: linear-gradient(To bottom right,blue,rgb(9, 185, 9),red);
+}
+
+#div2{
+    background-image: radial-gradient(circle,rgb(255, 72, 0),white,green);
+}
+
+#div3{
+    background-image: conic-gradient(yellow 15%,aqua 25%,tomato 20%,purple 75%,red 18%);
+}
+
+#div4{
+    background-color: rgba(15, 11, 237, 0.6);
+}
+
+#div7{
+    background-color:rgb(0,255,98) ;
+}
+
+#div5{
+    background-color: hsl(350,90%,60%);
+}
+
+#div6{
+    background-color: hsla(250,60%,40%,0.3)
+
+    };
+
+
+

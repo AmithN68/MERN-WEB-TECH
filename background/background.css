@@ -1,0 +1,20 @@
+h1 {
+  background-color: aquamarine;
+}
+
+.body{
+  background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p{
+    background-attachment:fixed;
+}
+
+.body1{
+    background: url(https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__340.jpg),url(https://cdn.pixabay.com/photo/2015/11/16/16/28/bird-1045954__340.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: hue;
+}

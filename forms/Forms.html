@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <section id="section">
+        <article>
+        <h2>Contact form</h2>
+        <p>Please fill in your information and we'll be sending your order in no time.</p>
+        <form action="#">
+
+        <div class="div1">
+            <label for="usname">Your Name</label>
+            <input type="text" id="usname" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+        </div>
+
+        <div class="div2">
+            <label for="eml">Your Email</label>
+            <input type="email" id="eml" placeholder="e.g. hello@contact.net">
+        </div>
+
+        <div class="div3">
+            <label for="no">Phone*</label>
+            <input type="tel" id="no" pattern="[6-9]{1}[0-9]{2}" placeholder="###">
+            <input type="tel" pattern="[0-9]{3}" placeholder="###">
+            <input type="tel" pattern="[0-9]{4}" placeholder="####">
+        </div>
+
+        <div class="div4">
+            <label for="msg">Message Subject*</label>
+            <select name="message" id="msg">
+                <option value="other">other</option>
+                <option value="form issue">form issue</option>
+            </select>
+        </div>
+
+        <div class="div5">
+            <label for="txt">Message*</label>
+            <textarea name="" id="txt" cols="" rows="3">Enter Content Here.....</textarea>
+        </div>
+
+        <div class="div6">
+            <label for="vrfn">Verification</label>
+            <input type="checkbox" name="" id="vrfn">
+        </div>
+
+        <hr>
+        <div class="div7">
+            <input type="button" value="SUBMIT FORM">
+        </div>
+
+    </form>
+    </article>
+    </section>
+</body>
+</html>
+  

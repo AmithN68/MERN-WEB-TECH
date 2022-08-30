@@ -1,0 +1,22 @@
+div{
+    background-color: aqua;
+    color: blue;
+}
+
+#a1{
+    margin-left:10px;
+}
+
+#a2{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+p{
+    color: teal;
+}
+
+*{
+    font-family: cursive;
+    font-size: larger;
+}

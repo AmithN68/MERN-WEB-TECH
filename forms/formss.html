@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+</head>
+<body>
+    <fieldset style="width: 40%;">
+        <legend align="center">Student Details</legend>
+    <form action="#" method="get" novalidate autocomplete="off">
+        <label for="uname">Name:</label>
+        <input type="text" name="Username" value="Amith N" id="uname" readonly>
+        <br><br>
+
+        <label for="pwd">Password:</label>
+        <input type="password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#$%^&*~]).{8}">
+        <br><br>
+
+        Mailid: <input type="email" disabled>
+        <br><br>
+
+        <label for="gnd">Gender</label>
+        <input type="radio" name="Gender" id="gnd" checked>male
+        <input type="radio" name="Gender">Female
+        <br><br>
+
+        Courses: <input type="checkbox" name="Course">ReactJS
+        <input type="checkbox" name="Course">MongoDB
+        <input type="checkbox" name="Course">NodeJS
+        <input type="checkbox" name="Course">ExpressJS
+        <br><br> 
+
+        <!-- Dropdown -->
+        City: <select name="loc" size="3" multiple>
+            <option value="bangalore">Bangalore</option>
+            <option value="hassan">Hassan</option>
+            <option value="mangalore">Mangalore</option>
+            <option value="mysore">Mysore</option>
+            <option value="chikmangalore">Chikmangalore</option>
+            <option value="hubli">Hubli</option>
+            <option value="davangere">Davangere</option>
+        </select>
+        <br><br>
+
+        <!-- Datalist -->
+        Colors: <input list="colors">
+        <datalist id="colors">
+            <option value="Red">Red</option>
+            <option value="Green">Green</option>
+            <option value="Black">Black</option>
+            <option value="White">White</option>
+            <option value="Navy Blue">Navy Blue</option>
+        </datalist>
+        <br><br>
+
+        Address: <textarea name="Address" cols="30" rows="10" maxlength="50" required></textarea>
+        <br><br>
+
+        DOB: <input type="date" name="dob">
+        <br><br>
+
+        Date and Time: <input type="datetime-local" name="">
+        <br><br>
+
+        Time: <input type="time" name="">
+        <br><br>
+
+        Contact: <input type="tel" name="phno" autocomplete="on" pattern="[6-9]{1}[0-9]{9}">
+        <br><br>
+
+        Age: <input type="number" name="age" min="0">
+        <br><br>
+
+        Upload: <input type="file" name="">
+        <br><br>
+
+        <button type="reset">reset</button>
+       <button>submit</button>
+        <br><br>
+    </form>
+</fieldset>
+<hr>
+</body>
+</html> 

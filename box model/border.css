@@ -1,0 +1,15 @@
+h2{
+    border:thick double red;
+    border-radius: 5px 10px 10px 5px;
+}
+
+img{
+    border: medium dotted gray;
+    border-radius: 10px;
+    border-top: solid red;
+    border-left: double blue;
+    margin-left: 20%;
+    margin-top: 10%;
+    border-right:thick groove aqua;
+    border-bottom: dashed rgb(42, 210, 36);
+}

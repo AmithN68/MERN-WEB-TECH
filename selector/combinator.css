@@ -1,0 +1,43 @@
+
+/* descendant selector */
+/* div p{
+    color: blue;
+}
+
+div{
+    background-color: aqua;
+}
+
+section{
+    color: red;
+}
+section p{
+    background-color: green;
+}
+
+section div{
+    color: teal;
+} */
+
+/* child selector */
+/* section>p{
+    background-color: darksalmon;
+}
+div>p{
+    background-color: red;
+}  */
+
+/* adjacent sibling */
+ section + p{
+    font-family:cursive;                  background-color: aquamarine;     
+    font-size: 50px;
+ }
+
+ p + h2{
+    text-shadow: 2px 3px rebeccapurple;
+ }
+
+ /* general selector */
+ div>h2 {
+    background-color: red;
+ }

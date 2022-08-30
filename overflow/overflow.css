@@ -1,0 +1,21 @@
+div p{
+    border:medium solid black;
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    overflow:scroll;
+    padding: 10px;
+}
+
+section{
+    border: thick solid;
+    height: 400px;
+    width: 600px;
+}
+img{
+    height: 400px;
+    width: 600px;
+    object-fit:fill;
+}
